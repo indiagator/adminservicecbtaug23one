@@ -2,7 +2,7 @@
 
 FROM adoptopenjdk/maven-openjdk11
 
-COPY target/adminservicecbtaug23one-prod-2.jar app.jar
+COPY target/adminservicecbtaug23one-prod-3.jar app.jar
 
 RUN apt-get update
 RUN apt-get install -y gcc

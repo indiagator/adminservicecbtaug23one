@@ -33,5 +33,17 @@ public class MainRestController {
 
     }
 
+    @GetMapping("get/user/all/SELLER")
+    public List<Optional<Userdetail>> getAllSellers()
+    {
+
+        return usertypelinkRepository.findByType("SELLER").stream().map(usertypelink -> {
+
+            return userdetailRepository.findById(usertypelink.getUsername());
+
+        }).collect(Collectors.toList());
+
+    }
+
 
 }

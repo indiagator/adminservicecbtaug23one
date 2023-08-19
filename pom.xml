@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.cbt</groupId>
     <artifactId>adminservicecbtaug23one</artifactId>
-    <version>prod-2</version>
+    <version>prod-3</version>
     <name>adminservicecbtaug23one</name>
     <description>adminservicecbtaug23one</description>
     <properties>
